@@ -12,14 +12,14 @@ public class Sumador {
 
         Sumador sumador = new Sumador();
 
-        /*
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce num 01: ");
-        int n1 = sc.nextInt();
+        int n1  = Integer.parseInt(args[0]);
         System.out.println("Introduce num 02: ");
-        int n2 = sc.nextInt();
+        int n2 = Integer.parseInt(args[1]);
         System.out.println("El resultado de la suma es "+sumador.suma(n1,n2));
-        */
+
 
 
     }
