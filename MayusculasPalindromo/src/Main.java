@@ -1,15 +1,29 @@
+import java.io.*;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    public static void main(String[] args) throws IOException {
+        File directorio = new File("/home/raujunabe/IdeaProjects/MayusculasPalindromo/src");
+        ProcessBuilder pb = new ProcessBuilder("java","Mayusculas.java");
+        pb.directory(directorio);
+        Process p=pb.start();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        String cadena = "Esta es una cadena de ejemplo\n";
+        String cadenaPalindromo = "Anita lava la tina\n";
+
+        OutputStream os = p.getOutputStream();
+        os.write(cadena.getBytes());
+        os.flush();
+
+        try {
+            InputStream is = p.getInputStream();
+            int c;
+            while ((c = is.read()) != -1)
+                System.out.print((char) c);
+            is.close();
+        }catch(Exception e) {
+            e.getMessage();
         }
     }
 }
