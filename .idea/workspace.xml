@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f7934b3-d08f-499b-b716-1be43c3023b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/EjerciciosUD1/Email/Email.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EjerciciosUD1/Lanzador/Lanzador.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EjerciciosUD1/MayusculasPalindromo/MayusculasPalindromo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EjerciciosUD1/MozillaFirefox/MozillaFirefox.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EjerciciosUD1/ProcessKillNotepad/ProcessKillNotepad.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EjerciciosUD1/ProcessListPng/ProcessListPng.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EjerciciosUD1/Prueba/Prueba.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2nHRRBjuDk2eR2uqEnxARxxrJzc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/raujunabe/IdeaProjects/PSP"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f7934b3-d08f-499b-b716-1be43c3023b8" name="Changes" comment="" />
+      <created>1728628004720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728628004720</updated>
+    </task>
+    <servers />
+  </component>
+</project>
